@@ -1,0 +1,41 @@
+# Java / Maven
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+target/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config / secrets
+.env
+*.env
+application-local.properties
+secrets/
+
+# Test reports / generated files
+surefire-reports/
+failsafe-reports/
+allure-results/
+html-report/
+coverage/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

@@ -108,10 +108,10 @@ public class WaitStrategiesDemo {
             System.out.println("Element is clickable, clicked it");
 
             // ===== WAIT FOR ELEMENT TO BE SELECTED =====
-            element = wait.until(
+            Boolean isSelected = wait.until(
                     ExpectedConditions.elementSelectionStateToBe(elementLocator, true)
             );
-            System.out.println("Element is selected");
+            System.out.println("Element is selected: " + isSelected);
 
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
